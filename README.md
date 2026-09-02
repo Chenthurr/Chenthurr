@@ -91,7 +91,7 @@ Python CLI debugging utility for error detection, logging, and script analysis.
 
 ## 💼 EXPERIENCE
 
-### Data Science Intern — CazBrain
+### Data Science Intern — Grom Your Skills
 **Jun 2025 – Jul 2025** · Predictive modeling, SQL, feature engineering, and ML pipelines.
 
 ### Core Python Trainee — VEI Technologies
