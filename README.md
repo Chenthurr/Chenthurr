@@ -32,7 +32,7 @@ API / APPLICATION
 REAL-WORLD IMPACT
 ```
 
----
+------
 
 ## ⚡ WHAT I WORK ON
 
