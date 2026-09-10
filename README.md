@@ -81,8 +81,8 @@ YOLOv8 + OpenCV + FastAPI for real-time detection, tracking, ROI logic, and queu
 ### 🏦 Loan Approval Prediction
 ML pipeline using SQL, feature engineering, cross-validation, and model tuning for loan classification.
 
-### 🌐 HEFIN — Decentralised AI Finance & Healthcare
-AI fraud detection platform combining ICP, Motoko, React.js, and machine learning.
+### 📊 Sales Dashboard
+Interactive business analytics dashboard for tracking sales performance, trends, KPIs, and actionable insights.
 
 ### 🐞 PyDebugger
 Python CLI debugging utility for error detection, logging, and script analysis.
