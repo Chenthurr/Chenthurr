@@ -116,17 +116,17 @@ Python CLI debugging utility for error detection, logging, and script analysis.
 
 ---
 
-## 🧠 CONTRIBUTION NEURAL NETWORK
+## 🌳 CONTRIBUTION TREE
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-neural-network.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-neural-network-light.svg">
-    <img alt="GitHub contribution neural network" src="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-neural-network.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-tree.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-tree-light.svg">
+    <img alt="GitHub contribution tree" src="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-tree.svg" width="100%">
   </picture>
 </p>
 
-<p align="center"><i>Every commit strengthens the network.</i></p>
+<p align="center"><i>Every contribution grows the tree.</i></p>
 
 ---
 
