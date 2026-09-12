@@ -63,9 +63,6 @@ def svg(days,dark=True):
             cx=x+bw/2
             parts.append(f'<line x1="{cx}" y1="{y}" x2="{cx}" y2="{y-18}" stroke="{hot}" stroke-width="1.5"/>')
             parts.append(f'<circle cx="{cx}" cy="{y-20}" r="2.5" fill="{hot}" filter="url(#glow)"/>')
-        if w in (0,13,26,39,51):
-            label=['01','04','07','10','12'][[0,13,26,39,51].index(w)]
-            parts.append(f'<text x="{x+bw/2:.1f}" y="372" text-anchor="middle" fill="{muted}" font-family="monospace" font-size="9">{label}</text>')
     parts += [f'<rect y="350" width="{W}" height="80" fill="{ground}" opacity=".97"/>',
               f'<line x1="0" y1="382" x2="{W}" y2="382" stroke="{grid}" stroke-width="2" stroke-dasharray="24 20"/>',
               f'<text x="42" y="410" fill="{muted}" font-family="Segoe UI,Ubuntu,sans-serif" font-size="11">QUIET</text>',
