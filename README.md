@@ -116,17 +116,17 @@ Python CLI debugging utility for error detection, logging, and script analysis.
 
 ---
 
-## 🌳 CONTRIBUTION TREE
+## 🏙️ CONTRIBUTION CITY
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-tree.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-tree-light.svg">
-    <img alt="GitHub contribution tree" src="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-tree.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-city.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-city-light.svg">
+    <img alt="GitHub contribution city" src="https://raw.githubusercontent.com/Chenthurr/Chenthurr/output/github-contribution-city.svg" width="100%">
   </picture>
 </p>
 
-<p align="center"><i>Every contribution grows the tree.</i></p>
+<p align="center"><i>Building a better tomorrow, one commit at a time.</i></p>
 
 ---
 
