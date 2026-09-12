@@ -1,4 +1,4 @@
-name: Generate Contribution Tree
+name: Generate Contribution City
 
 on:
   schedule:
@@ -31,10 +31,10 @@ jobs:
           {"query":"query { user(login: \"Chenthurr\") { contributionsCollection(from: \"${START_DATE}T00:00:00Z\", to: \"${END_DATE}T23:59:59Z\") { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }"}
           EOF
 
-      - name: Generate contribution tree SVGs
+      - name: Generate contribution city SVGs
         run: python3 scripts/generate_contribution_tree.py contributions.json
 
-      - name: Publish contribution tree
+      - name: Publish contribution city
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
