@@ -1,0 +1,43 @@
+name: Generate Contribution Neural Network
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch contribution data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          END_DATE=$(date -u +%Y-%m-%d)
+          START_DATE=$(date -u -d '1 year ago' +%Y-%m-%d)
+          curl -fsSL https://api.github.com/graphql \
+            -H "Authorization: bearer $GH_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data-binary @- > contributions.json <<EOF
+          {"query":"query { user(login: \"Chenthurr\") { contributionsCollection(from: \"${START_DATE}T00:00:00Z\", to: \"${END_DATE}T23:59:59Z\") { contributionCalendar { weeks { contributionDays { date contributionCount } } } } } }"}
+          EOF
+
+      - name: Generate neural network SVGs
+        run: python3 scripts/generate_neural_network.py contributions.json
+
+      - name: Publish neural network
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
