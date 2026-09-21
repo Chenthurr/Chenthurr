@@ -87,6 +87,9 @@ Interactive business analytics dashboard for tracking sales performance, trends,
 ### 🐞 PyDebugger
 Python CLI debugging utility for error detection, logging, and script analysis.
 
+### 💼 AI Venture Analyst
+AI-powered startup investment analysis platform using FastAPI, Next.js, retrieval-grounded analysis, financial metrics, and multi-method valuation.
+
 ---
 
 ## 💼 EXPERIENCE
